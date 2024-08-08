@@ -109,12 +109,22 @@ display: block;
 
 .menu-lateral{
     min-width: 240px;
+    width: 224px;
+    margin-right: 16px;
+}
+
+.menu-bloco, .menu-login{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.075);
+    padding: 15px;
+}
+
+.menu-bloco:last-child{
+    border-bottom: none;
 }
 
 .bloco-item {
     display: flex;
     border-radius: 12px; 
-    
     padding: 7.5px 15px;
     align-items: center;
     gap: 19px;
@@ -126,3 +136,35 @@ display: block;
     font-weight: 600;
 }
 
+.bloco-titulo{
+    margin-left: 15px;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 3px 0;
+}
+
+.menu-login{
+  padding: 16px 32px;  
+}
+
+.login-texto{
+    margin-bottom: 15px;
+}
+
+.login-bloco{
+    display: flex;
+    align-items: center; 
+    text-decoration: none;
+    gap: 6px;
+    border-radius: 100px;
+    border: 1px solid rgba(0, 0, 0, 0.034);
+    padding: 6px 12px;
+    color: #065fd4;
+    fill: #065fd4;
+    width: max-content;
+}
+
+.bloco-texto{
+   color: inherit;
+   font-weight: 500;
+}
